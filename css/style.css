@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #00B074;
+    --primary: #198754;;
     --secondary: #2B9BFF;
     --light: #EFFDF5;
     --dark: #2B3940;
@@ -233,7 +233,17 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(43, 57, 64, .5), rgba(43, 57, 64, .5)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(43, 57, 64, .5), rgba(43, 57, 64, .5)), url(../img/about_header.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-2 {
+    background: linear-gradient(rgba(43, 57, 64, .5), rgba(43, 57, 64, .5)), url(../img/team_image.JPG) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-3 {
+    background: linear-gradient(rgba(43, 57, 64, .5), rgba(43, 57, 64, .5)), url(../img/city_buffalo.jpg) center center no-repeat;
     background-size: cover;
 }
 
